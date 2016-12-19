@@ -1,0 +1,38 @@
+{
+	"info": {
+		"compression": "aac",
+		"tracks": "2",
+	},
+	"tracks": [
+	{
+		"name": "Made my day",
+		"author": "Jill Sorry",
+		"style": "BLUES",
+		"id": "112340",
+		"duration": "155",
+		"number": "1"
+	},
+	{
+		"name": "Bad one",
+		"style": "POP",
+		"id": "112340",
+		"duration": "155",
+		"number": "1"
+	},
+	{
+		"name": "Something new",
+		"author": "Billy Storm",
+		"style": "ROCK",
+		"id": "234534",
+		"duration": "210",
+		"number": "2"
+	},
+	{
+		"name": "Another bad one",
+		"author": "Billy Storm",
+		"style": "POP",
+		"idd": "112340",
+		"duration": "155",
+		"number": "1"
+	}]
+}

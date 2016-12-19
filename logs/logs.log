@@ -1,0 +1,14 @@
+[WARN ] 2016-12-19 19:58:00.627 [main] RecordingDataReader - Could not parse track info. Skipping this track
+[WARN ] 2016-12-19 19:58:00.629 [main] RecordingDataReader - Could not parse track info. Skipping this track
+[ERROR] 2016-12-19 19:58:00.635 [main] RecordingDataReader - Could not parse json object from file. Returing empty collection
+[WARN ] 2016-12-19 19:58:42.061 [main] AlbumCreator - Could not create recording. Skipping to the next one
+[WARN ] 2016-12-19 20:09:52.671 [main] AlbumCreator - Could not create recording. Skipping to the next one
+[WARN ] 2016-12-19 20:09:52.763 [main] RecordingDataReader - Could not parse track info. Skipping this track
+[WARN ] 2016-12-19 20:09:52.765 [main] RecordingDataReader - Could not parse track info. Skipping this track
+[ERROR] 2016-12-19 20:09:52.771 [main] RecordingDataReader - Could not parse json object from file. Returing empty collection
+[ERROR] 2016-12-19 20:28:24.506 [main] AlbumCreator - Could not create recording. Skipping to the next one
+[ERROR] 2016-12-19 20:35:01.788 [main] AlbumCreator - Could not create recording. Skipping to the next one
+[ERROR] 2016-12-19 20:43:10.002 [main] AlbumCreator - Could not create recording. Skipping to the next one
+[ERROR] 2016-12-19 20:43:10.094 [main] RecordingDataReader - Could not parse track info. Skipping this track
+[ERROR] 2016-12-19 20:43:10.094 [main] RecordingDataReader - Could not parse track info. Skipping this track
+[ERROR] 2016-12-19 20:43:10.105 [main] RecordingDataReader - Could not parse json object from file. Returing empty collection
