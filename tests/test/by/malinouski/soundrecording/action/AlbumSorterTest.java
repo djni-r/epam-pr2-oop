@@ -51,13 +51,13 @@ public class AlbumSorterTest {
         
         // has to be in this order: BLUES, CLASSICAL, ELECTRONIC, JAZZ, METAL, POP, ROCK
         assertEquals("album's size", 7, album.getRecordings().size());
-        assertEquals("album's first element id", 1, iter.next().getNumber());
-        assertEquals("album's second element id", 7, iter.next().getNumber());
-        assertEquals("album's third element id", 6, iter.next().getNumber());
-        assertEquals("album's fourth element id", 4, iter.next().getNumber());
-        assertEquals("album's fifth element id", 3, iter.next().getNumber());
-        assertEquals("album's sixth element id", 5, iter.next().getNumber());
-        assertEquals("album's seventh element id", 2, iter.next().getNumber());
+        assertEquals("album's first track number", 1, iter.next().getNumber());
+        assertEquals("album's second track number", 7, iter.next().getNumber());
+        assertEquals("album's third track number", 6, iter.next().getNumber());
+        assertEquals("album's fourth track number", 4, iter.next().getNumber());
+        assertEquals("album's fifth track number", 3, iter.next().getNumber());
+        assertEquals("album's sixth track number", 5, iter.next().getNumber());
+        assertEquals("album's seventh track number", 2, iter.next().getNumber());
     }
     
     @Test
@@ -75,10 +75,10 @@ public class AlbumSorterTest {
         sorter.byStyle(album);
         Iterator<Recording> iter = album.getRecordings().iterator();
         
-        assertEquals("album's first element id", 2, iter.next().getNumber());
-        assertEquals("album's second element id", 1, iter.next().getNumber());
-        assertEquals("album's third element id", 3, iter.next().getNumber());
-        assertEquals("album's fourth element id", 4, iter.next().getNumber());
+        assertEquals("album's first track number", 2, iter.next().getNumber());
+        assertEquals("album's second track number", 1, iter.next().getNumber());
+        assertEquals("album's third track number", 3, iter.next().getNumber());
+        assertEquals("album's fourth track number", 4, iter.next().getNumber());
     }
 
     

@@ -23,13 +23,13 @@ public class recordingsFinderTest {
         Album<Recording> album = new Album<>();
         SortedSet<Recording> recordings = new TreeSet<>(new RecordingNumberComparator());
         
-        Recording rec1 = new Recording("Made my day", "Jill Sorry", Style.BLUES, 1345324, 155, 1);          // id 1
-        Recording rec2 = new Recording("Something new", "Billy Storm", Style.ROCK, 234523, 210, 2);        // id 2
-        Recording rec3 = new Recording("Die darling", "Jim Scarecrow", Style.METAL, 34353, 205, 3);       // id 3
-        Recording rec4 = new Recording("To see the world", "Manz Dritter", Style.JAZZ, 45435346, 421, 4);    // id 4
-        Recording rec5 = new Recording("Love me twice", "Sa-Sha", Style.POP, 523453245, 329, 5);              // id 5
-        Recording rec6 = new Recording("Procrustes' bed", "Z-us", Style.ELECTRONIC, 62345234, 312, 6);       // id 6
-        Recording rec7 = new Recording("Autumn Elegy", "Serge Simonoff", Style.CLASSICAL, 72345345, 164, 7); // id 7
+        Recording rec1 = new Recording("Made my day", "Jill Sorry", Style.BLUES, 1345324, 155, 1);         
+        Recording rec2 = new Recording("Something new", "Billy Storm", Style.ROCK, 234523, 210, 2);        
+        Recording rec3 = new Recording("Die darling", "Jim Scarecrow", Style.METAL, 34353, 205, 3);       
+        Recording rec4 = new Recording("To see the world", "Manz Dritter", Style.JAZZ, 45435346, 421, 4); 
+        Recording rec5 = new Recording("Love me twice", "Sa-Sha", Style.POP, 523453245, 329, 5);          
+        Recording rec6 = new Recording("Procrustes' bed", "Z-us", Style.ELECTRONIC, 62345234, 312, 6);       
+        Recording rec7 = new Recording("Autumn Elegy", "Serge Simonoff", Style.CLASSICAL, 72345345, 164, 7);
         
         recordings.addAll(Arrays.asList(rec1, rec2, rec3, rec4, rec5, rec6, rec7));
         
